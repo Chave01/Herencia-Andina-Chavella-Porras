@@ -1,0 +1,670 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	display:flex;
+	min-height:  100vh;
+	flex-wrap: wrap;
+}
+
+a {
+	color: white;
+}
+
+h1 {
+	color: white;
+}
+    	/* Index*/
+
+.IndexBody	{
+ 	background-image: url(../Imagenes/cafe2.png);
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-attachment: fixed;
+
+			}
+
+.nav{
+	display:flex;
+	}
+
+.logo__menu	{
+	display:inline-block;
+
+			}
+
+
+.nav__menu	{
+	float: right;
+	position:absolute;
+	right:0;
+	
+
+
+			}	
+
+.navmenu	{
+	margin-top: 70px;
+			}
+
+
+.menulink	{
+	
+	list-style: none;
+	display:inline;
+	margin: 0 30px 0px 30px; 
+			}
+	
+
+
+
+
+.linkbar:hover	{
+  	color:#f77f00;
+ 
+              	}
+
+
+
+.Titulo {
+		color: white;
+		text-align: center;
+		font-size:70px;
+		
+		margin-top: 150px;
+		padding:0px;
+	
+		}
+
+
+.botonproducto {
+	display: flex;
+	justify-content: center;
+}
+
+.verproducto {
+	background-color: #e59400;
+	border-radius: 6px;
+	padding: 8px 7px;
+	font-weight: normal;
+	font-size: 15px;
+
+			}
+
+.verproducto:hover {
+	text-decoration: underline;
+
+					}
+
+
+.mainindex {
+	margin-top: 170px;
+	display:flex;
+	flex-direction: column;
+
+		}
+
+
+.Section2{
+ 	 background-color:white;
+ 	 margin-top:400px; 
+ 	 width:1349px;
+ 	 height:500px;
+   	 font-size: 15px;
+   	 display:flex;
+  	 flex-direction: row;
+ 	 justify-content: space-between;
+		}
+
+.HistoriaImg {
+
+ 		margin-right: 60px;
+ 		 margin-top:30px;
+  			}
+
+
+
+
+.NUESTRAS	{ 
+	  color:#f77f00;
+	  font-family: sans-serif;
+	  font-size: 60px;
+	  margin-left: 50px;
+	  margin-top:50px;
+	  text-align: center;
+	  font-weight: lighter;
+	  width: 300px;
+
+			}
+
+
+.RAICES{
+	 
+	 
+	 color:#f77f00;
+	 font-family: sans-serif;
+	 font-size: 60px;
+	 margin-left: 200px;  
+	 text-align: center;
+	 font-weight: lighter;
+	  width: 300px;
+}
+
+
+.PHistoria {
+ 
+ 	text-align: left;
+ 	margin-left: 60px;
+ 
+  	
+  	font-weight: normal;
+    color:#6c757d;
+    font-size: 19px;
+    width:500px;
+    line-height: 25px;
+			}
+
+
+.HistoriaImg {
+
+ 	margin-right: 80px;
+ 	margin-top:30px;
+  			}
+
+
+.section3{
+	  background-color:white;
+	  width:1349px;
+ 	  height:600px;
+	  display:flex;
+	  flex-direction: row-reverse;
+	  justify-content: space-between;
+	  font-family: sans-serif;
+	 
+	
+
+  			}
+
+.divProductoindex {
+	margin-top:100px;
+	height: 400px;
+	
+				}
+
+ .garantia	{
+ 	color:#2D6A4F;
+ 	font-family: sans-serif;
+ 	text-align: right;
+ 	font-size: 60px;
+ 	font-weight: lighter;
+ 	margin-right: 300px;
+ 	
+ 			}
+
+.calidad {
+    color:#2D6A4F;
+ 	font-family: sans-serif;
+ 	text-align: right;
+ 	font-size: 60px;
+ 	font-weight: lighter;
+ 	margin-right: 100px;
+
+
+
+
+}
+
+
+.Pproducto{
+
+    width:500px;
+   font-weight: lighter;
+    color:#6c757d;
+    font-size: 19px;
+    width:500px;
+    line-height: 25px;
+    font-family: Quicksand;
+ 
+
+}
+
+
+
+.divsection3img {
+	margin-top:100px;
+	margin-left:50px;
+
+
+}
+
+	/*Producto*/
+
+
+.bodyproducto {
+	background-image: url(../Imagenes/header3.png);
+ 	background-repeat: no-repeat;
+ 	
+ 	
+ 		
+			}
+
+
+ .mainproducto {
+ 	  
+ 	  background-repeat: no-repeat;
+ 	  background-position: left;
+ 	  background-size: cover;
+ 	  background-attachment: fixed;
+	  color: black; 
+	  width: 300%;
+	  height:250%;
+	  display: flex;
+	  justify-content: center
+
+	  
+
+  				}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 294px 294px 294px;
+    grid-template-rows:  298px auto auto;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    justify-content: space-around;
+   
+    margin-bottom: 60px;
+    height:1500px;
+    width: 1000px;
+  
+  
+
+  
+
+  			}
+
+
+
+.Titulo1	{
+	  grid-column-start: 1;
+	  grid-column-end: 4;
+	  text-align: center;
+	  font-family: sans-serif;
+	  font-size: 60px;
+	  font-weight: lighter;
+	  color:#2D6A4F;
+	  margin-top:140px;
+	  
+	  height: 60px;
+
+			}
+
+
+.divfoto{
+	
+	background-color: white;
+	margin-bottom:16px;
+   box-shadow: 0 2px 10px #e7ecef;
+ 
+	
+}
+
+
+
+.Ptexto {
+	font-size: 13px;
+	color:black;
+	margin-top: 15px;
+
+
+
+}
+.Ptexto, .price{
+	text-align: center;
+}
+
+.price{
+	font-size: 12px;
+	margin-top:5px
+
+}
+	
+
+	/*QuienesSomos*/
+
+
+.mainhistoria {
+	height:1000px; 
+
+
+
+}
+
+.container3 {
+	margin-top:70px;
+	
+	
+    display:grid;
+	grid-template-columns: auto auto;
+	justify-content: space-around;
+	width:1300px;
+
+
+}
+
+
+
+
+.item1 {
+	
+	
+	grid-column-start: 1;
+	grid-column-end:3;
+	text-align: center;
+	 font-family: sans-serif;
+	 font-size: 60px;
+	 font-weight: lighter;
+	 color:#f77f00;
+	 margin-top:50px;
+	 height: 150px;
+
+
+
+}
+
+.item2{
+	
+	width:400px;
+
+}
+.item3 {
+	
+	width:600px;
+
+		}
+
+.textoHistoria{
+	margin-top: 50px;
+	color:#6c757d;
+    font-size: 19px;
+    line-height: 25px;
+}
+
+			/*Registrate */
+
+
+
+.MainLogin {
+	margin-top: 12px;
+  	display: flex;
+    opacity: 0.8;
+	color: black;
+    display: flex;
+    justify-content: center;
+    height:500px;
+    width: 1300px;
+
+
+ 
+
+				}
+
+
+.divLogin {
+	margin-top: 150px;
+	
+	width: 500px;
+	height: 200px;
+	display: grid;
+	grid-template-rows: 40px 40px 40px;
+	grid-row-gap: 15px;
+
+	
+	
+
+}
+
+
+
+
+#email {
+	height: 40px;
+	width: 500px;
+
+	}
+	
+#contraseña {
+	height: 40px;
+	width: 500px;
+
+
+}
+
+.Botonlogin {
+	background-color: #fec89a;
+    color:black;
+    display: flex;
+    justify-content: center;
+}
+
+.linkloginin {
+	margin-top: 10px;
+
+color:black;
+	
+
+}
+
+.olvido,.crear {
+	color:black;
+
+
+}
+
+.divforgotlogin {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+}
+
+input {
+	font-size: 18px;
+	font-weight: lighter;
+	background-color: #fefcfb;
+	border: 1px solid #adb5bd;
+	outline: none
+
+
+}		
+ 
+
+ 
+
+/*Crear cuenta*/
+
+.mainregistrate {
+	display: flex;
+    justify-content: center;
+margin-top: 130px;
+     height:800px;
+    width: 1300px;
+    
+
+}
+
+
+.Cuentatitulo{
+	
+	  font-size: 60px;
+	  font-weight: lighter;
+	  color:#f77f00;
+	  font-family: sans-serif;
+	  margin-bottom: 70px;
+
+	  }
+
+
+
+
+.divregistrate {
+	
+	 margin-top: 10px;
+	 justify-content: center;
+	 height: 500px;
+     display: inline-block;
+     justify-content: center;
+}
+
+
+.divCompletar {
+	display: grid;
+	grid-template-rows: 30px 30px 30px;
+	grid-row-gap: 20px;
+
+
+}
+
+#name, #lastname, #email , #pass {
+		height: 40px;
+	width: 500px;
+}
+
+
+
+	
+.divcrear {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	border-style: none;
+}
+#crearcuenta {
+	background-color: #fec89a;
+	width:150px;
+	height: 30px;
+	border-style: none;
+
+}
+
+
+
+
+
+	/*Tu Compra*/
+
+
+.maintucompra {
+	margin-left: 30px;
+	
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	width:1300px;
+	
+
+}
+
+.divcompra {
+	margin-top:10px;
+
+
+}
+
+
+.carritoTitulo{
+	  font-size: 60px;
+	  font-weight: lighter;
+	  color:#2D6A4F;
+	  font-family: sans-serif;
+
+	  }
+
+.carritotexto{
+	color:#6c757d;
+    font-size: 19px;
+   
+   
+
+}
+
+
+			/* Footer*/
+
+footer {
+	align-self: flex-end;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #e5e5e5;
+  	width: 100%;
+  	font-family: 'Quicksand', sans-serif;
+  	color: black;
+  	font-size: 14px;
+
+		}
+	
+
+
+.divmapa {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+  
+		}
+
+
+.limapa {
+	list-style: none;
+		}
+	
+.Linkmapa {
+	text-decoration: none;
+	color:black;
+	list-style: none;
+
+		}
+
+.divRedes {
+	margin-top: 12px;
+}
+
+.divredesicon{
+
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width:74px;
+	height: 35px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	}
+
+
+
+.seguinos {
+	
+
+}
+
+
+
+.divContacto {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-right: 30px;	
+			}
+
+.Dato 	{
+	list-style: none;
+		}
+
