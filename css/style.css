@@ -8,60 +8,97 @@ body {
 	display:flex;
 	min-height:  100vh;
 	flex-wrap: wrap;
+
 }
 
 a {
 	color: white;
+	text-decoration: none;
 }
 
 h1 {
 	color: white;
 }
+
+img {
+	width: 100%
+}
     	/* Index*/
 
+ 
+
+
+.alert {
+	
+	position: fixed;
+	margin-left: 35%;
+
+}
+
+
+.fondoheader {
+	display: flex;
+	
+	width: 145%;
+
+
+}
+
+
 .IndexBody	{
+
  	background-image: url(../Imagenes/cafe2.png);
  	background-position: center;
  	background-repeat: no-repeat;
  	background-size: cover;
  	background-attachment: fixed;
+ 	border:4px solid black;
+ 	width: 100%;
+    
+ 	
 
 			}
 
-.nav{
+.linkbar {
+	display: inline-block;
+	
+	color:white;
+	padding:10px 30px;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+.logo {
+	align-items: left;
+	
+
+}
+nav {
+	
+	margin-top: 50px;
 	display:flex;
+	justify-content: flex-end;
+	width: 100%;
+
+}
+
+@media (max-width: 600px){
+	nav {
+		
+		flex-direction: column;
+
 	}
 
-.logo__menu	{
-	display:inline-block;
-
-			}
-
-
-.nav__menu	{
-	float: right;
-	position:absolute;
-	right:0;
+	.linkbar:hover {
+		background-color: brown;
+	}
 	
+	.linkbar {
+		background-color: salmon;
+		margin: 0.5px 0;
+	}
 
-
-			}	
-
-.navmenu	{
-	margin-top: 70px;
-			}
-
-
-.menulink	{
-	
-	list-style: none;
-	display:inline;
-	margin: 0 30px 0px 30px; 
-			}
-	
-
-
-
+	}
 
 .linkbar:hover	{
   	color:#f77f00;
@@ -69,39 +106,68 @@ h1 {
               	}
 
 
+.contenedor {
 
-.Titulo {
-		color: white;
-		text-align: center;
-		font-size:70px;
-		
-		margin-top: 150px;
-		padding:0px;
 	
-		}
+	display: flex;
+	width: 100%;
+	height: 40px;
+	color: white;
+	font-size: 40px;
+	line-height: 40px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 20px;
+	margin:auto;
+	overflow: hidden;
+	
+	font-family: sans-serif;
 
+	
+}
+
+
+.ulparrafo {
+	animation: cambiar 8s infinite;
+	list-style: none;
+	padding-left: 10px;
+	margin:0px;
+}
+
+.texto {
+	margin:0px;
+	;
+}
+
+@keyframes cambiar {
+	
+	0%{ margin-top: 0;}
+	20%{ margin-top: 0;}
+	
+	25% {margin-top: -40px;}
+	50% {margin-top: -40px;}
+	
+	55% {margin-top: -40px;}
+	80% {margin-top: -40px;}
+	
+	85% {margin-top: -40px;}
+	95% {margin-top: -40px;}
+	
+	100% {margin-top: 0;}
+}
 
 .botonproducto {
 	display: flex;
 	justify-content: center;
 }
 
-.verproducto {
-	background-color: #e59400;
-	border-radius: 6px;
-	padding: 8px 7px;
-	font-weight: normal;
-	font-size: 15px;
 
-			}
-
-.verproducto:hover {
-	text-decoration: underline;
-
-					}
 
 
 .mainindex {
+	
 	margin-top: 170px;
 	display:flex;
 	flex-direction: column;
@@ -110,9 +176,10 @@ h1 {
 
 
 .Section2{
+	display: inline-block;
  	 background-color:white;
  	 margin-top:400px; 
- 	 width:1349px;
+ 	 width:1340px;
  	 height:500px;
    	 font-size: 15px;
    	 display:flex;
@@ -178,7 +245,7 @@ h1 {
 
 .section3{
 	  background-color:white;
-	  width:1349px;
+	  width:1340px;
  	  height:600px;
 	  display:flex;
 	  flex-direction: row-reverse;
@@ -269,6 +336,7 @@ h1 {
 
   				}
 
+@media (min-width: 500px) {
 
 .container {
     display: grid;
@@ -338,62 +406,55 @@ h1 {
 	/*QuienesSomos*/
 
 
+
+
 .mainhistoria {
 	height:1000px; 
 
+}
 
+
+h1 {
+	font-size: 10vh;
+}
+.container {
+	border:1px solid black;
 
 }
 
-.container3 {
-	margin-top:70px;
+.container-fluid {
+	border:1px solid black;
+	width: 100%
+}
+.col {
+	border:1px solid black;
+
+}
+
+.pao3 {
+	border:1px solid black;
+	margin-left: 20%;
+	display: inline-block;
+}
+
+
+
 	
-	
-    display:grid;
-	grid-template-columns: auto auto;
+
+
+footer {
+
+	display: flex;
 	justify-content: space-around;
-	width:1300px;
-
 
 }
 
 
-
-
-.item1 {
-	
-	
-	grid-column-start: 1;
-	grid-column-end:3;
-	text-align: center;
-	 font-family: sans-serif;
-	 font-size: 60px;
-	 font-weight: lighter;
-	 color:#f77f00;
-	 margin-top:50px;
-	 height: 150px;
-
-
-
-}
-
-.item2{
-	
-	width:400px;
-
-}
-.item3 {
-	
-	width:600px;
-
-		}
-
-.textoHistoria{
-	margin-top: 50px;
-	color:#6c757d;
-    font-size: 19px;
-    line-height: 25px;
-}
+@media (max-width: 600px){
+	footer {
+		flex-direction: column;
+		background-color: white;
+	}
 
 			/*Registrate */
 
