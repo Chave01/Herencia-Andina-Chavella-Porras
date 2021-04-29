@@ -1,31 +1,23 @@
-*{
-	margin: 0px;
-	padding: 0px;
-}
+
 
 body {
 	font-family: 'Quicksand', sans-serif;
-	display:flex;
-	min-height:  100vh;
+	display:flex;	
 	flex-wrap: wrap;
 
-}
+	}
 
 a {
-	color: white;
-	text-decoration: none;
-}
+	color: black;
+	
+	}
 
 h1 {
 	color: white;
 }
 
-img {
-	width: 100%
-}
-    	/* Index*/
 
- 
+    	/* Index*/
 
 
 .alert {
@@ -33,12 +25,41 @@ img {
 	position: fixed;
 	margin-left: 35%;
 
+}	
+.LinkSuscribir{
+	text-decoration: none;
+}
+
+nav {
+	
+	margin-top: 50px;
+	display:flex;
+	justify-content: flex-end;
+	width: 100%;
+
+}
+
+
+@media (max-width: 600px){
+	nav {
+		width: 650px;
+		flex-direction: column;
+
+	}
+
+	.linkbar:hover {
+		background-color: black;
+	}
+	
+	.linkbar {
+		background-color: #f77f00;
+		margin: 0.5px 0;
+	}
 }
 
 
 .fondoheader {
-	display: flex;
-	
+	display: flex;	
 	width: 145%;
 
 
@@ -52,14 +73,25 @@ img {
  	background-repeat: no-repeat;
  	background-size: cover;
  	background-attachment: fixed;
- 	width: 100%;
+ 	
 
 			}
 
+.mainindex {
+	width: 100%;
+	margin-top: 170px;
+	display:flex;
+	flex-direction: column;
+
+	
+
+
+
+		}
+
 .linkbar {
 	display: inline-block;
-
-	color:white;
+	color: white;
 	padding:10px 30px;
 	text-decoration: none;
 	margin-right: 20px;
@@ -68,34 +100,9 @@ img {
 .logo {
 	align-items: left;
 
-}
+ }
 
-nav {
-	
-	margin-top: 50px;
-	display:flex;
-	justify-content: flex-end;
-	width: 100%;
 
-}
-
-@media (max-width: 600px){
-	nav {
-		
-		flex-direction: column;
-
-	}
-
-	.linkbar:hover {
-		background-color: brown;
-	}
-	
-	.linkbar {
-		background-color: salmon;
-		margin: 0.5px 0;
-	}
-
-	}
 
 .linkbar:hover	{
   	color:#f77f00;
@@ -103,8 +110,7 @@ nav {
               	}
 
 
-.contenedor {
-
+.maintitulo {
 	
 	display: flex;
 	width: 100%;
@@ -119,8 +125,10 @@ nav {
 	left: 20px;
 	margin:auto;
 	overflow: hidden;
-	
 	font-family: sans-serif;
+
+	
+
 
 	
 }
@@ -131,11 +139,12 @@ nav {
 	list-style: none;
 	padding-left: 10px;
 	margin:0px;
+	
 }
 
 .texto {
 	margin:0px;
-	;
+	
 }
 
 @keyframes cambiar {
@@ -161,22 +170,11 @@ nav {
 }
 
 
-
-
-.mainindex {
-	
-	margin-top: 170px;
-	display:flex;
-	flex-direction: column;
-
-		}
-
-
 .Section2{
-	display: inline-block;
+	 display: inline-block;
  	 background-color:white;
  	 margin-top:400px; 
- 	 width:1340px;
+ 	 
  	 height:500px;
    	 font-size: 15px;
    	 display:flex;
@@ -223,8 +221,6 @@ nav {
  
  	text-align: left;
  	margin-left: 60px;
- 
-  	
   	font-weight: normal;
     color:#6c757d;
     font-size: 19px;
@@ -241,15 +237,12 @@ nav {
 
 
 .section3{
-	  background-color:white;
-	  width:1340px;
- 	  height:600px;
+	  background-color:white; 
+ 	  height:700px;
 	  display:flex;
 	  flex-direction: row-reverse;
 	  justify-content: space-between;
 	  font-family: sans-serif;
-	 
-	
 
   			}
 
@@ -276,17 +269,13 @@ nav {
  	font-size: 60px;
  	font-weight: lighter;
  	margin-right: 100px;
-
-
-
-
 }
 
 
 .Pproducto{
 
     width:500px;
-   font-weight: lighter;
+    font-weight: lighter;
     color:#6c757d;
     font-size: 19px;
     width:500px;
@@ -297,11 +286,10 @@ nav {
 }
 
 
-
 .divsection3img {
 	margin-top:100px;
 	margin-left:50px;
-
+    
 
 }
 
@@ -311,105 +299,45 @@ nav {
 .bodyproducto {
 	background-image: url(../Imagenes/header3.png);
  	background-repeat: no-repeat;
- 	
- 	
- 		
 			}
 
 
- .mainproducto {
- 	  
- 	  background-repeat: no-repeat;
- 	  background-position: left;
- 	  background-size: cover;
- 	  background-attachment: fixed;
-	  color: black; 
-	  width: 300%;
-	  height:250%;
-	  display: flex;
-	  justify-content: center
 
-	  
+.mainproducto {
 
-  				}
-
-@media (max-width: 600px) {
-
-.container {
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 2.2fr 2.2fr 2.2fr 2.2fr 2.2fr 2.2fr 2.2fr 2.2fr 2.2fr 
-
-
-
-
-
- 
-
-
-
+width: 100%;
 }
-  
-
-}
+.container div {
+  text-align: center;
+     
+  }
 
 
 
 .container {
-    display: grid;
-    grid-template-columns: 294px 294px 294px;
-    grid-template-rows:  298px auto auto;
-    grid-column-gap: 40px;
-    grid-row-gap: 40px;
-    justify-content: space-around;  
-    margin-bottom: 60px;
-    height:1500px;
-    width: 100%;
-}
-.Titulo1	{
-	  grid-column-start: 1;
-	  grid-column-end: 4;
-	  text-align: center;
-	  font-family: sans-serif;
-	  font-size: 60px;
-	  font-weight: lighter;
-	  color:#2D6A4F;
-	  margin-top:140px;
-	  width: 100%
-	  height: 60px;
-
-			}
-
-
-.divfoto{
 	
-	background-color: white;
-	margin-bottom:16px;
-   box-shadow: 0 2px 10px #e7ecef;
- 
+	margin-top: 100px;
 	
-}
-
-
-
-.Ptexto {
-	font-size: 13px;
-	color:black;
-	margin-top: 15px;
-
-
+	margin-bottom: 100px;
+	width:1400px;
 
 }
-.Ptexto, .price{
+
+.H1PRODUCTO {
+	color: #2D6A4F;
 	text-align: center;
-}
-
-.price{
-	font-size: 12px;
-	margin-top:5px
-
+	margin-bottom:100px;
+	font-size: 5vw;
+	font-weight: lighter;
+	font-family: sans-serif;
 }
 	
+
+#grid div {
+	
+   margin-bottom:25px;
+   box-shadow: 0 2px 10px #e7ecef;
+}
 
 	/*QuienesSomos*/
 
@@ -424,46 +352,34 @@ nav {
 
 .container3 {
 	margin-top:70px;
-	
-
     display:grid;
 	grid-template-columns: auto auto;
 	justify-content: space-around;
 	width:1300px;
-
-
 }
-
 
 
 .item1 {
-	
-	
 	grid-column-start: 1;
 	grid-column-end:3;
 	text-align: center;
-	 font-family: sans-serif;
-	 font-size: 5vw;
-	 font-weight: lighter;
-	 color:#f77f00;
-	 margin-top:50px;
-	 height: 150px;
-	 width: 100%
-
-
-
+	font-family: sans-serif;
+	font-size: 5vw;
+	font-weight: lighter;
+	color:#f77f00;
+	margin-top:50px;
+	height: 150px;
+	width: 100%
 }
+
 
 .item2{
-	
 	width:400px;
-
 }
-.item3 {
-	
-	width:600px;
 
-		}
+.item3 {
+	width:600px;
+}
 
 .textoHistoria{
 	margin-top: 50px;
@@ -475,7 +391,6 @@ nav {
 			/*Registrate */
 
 
-
 .MainLogin {
 	margin-top: 12px;
   	display: flex;
@@ -485,27 +400,18 @@ nav {
     justify-content: center;
     height:500px;
     width: 1300px;
-
-
- 
-
-				}
+}
 
 
 .divLogin {
 	margin-top: 150px;
-	
 	width: 500px;
 	height: 200px;
 	display: grid;
 	grid-template-rows: 40px 40px 40px;
 	grid-row-gap: 15px;
 
-	
-	
-
 }
-
 
 
 
@@ -513,7 +419,7 @@ nav {
 	height: 40px;
 	width: 500px;
 
-	}
+}
 	
 #contraseña {
 	height: 40px;
@@ -531,15 +437,11 @@ nav {
 
 .linkloginin {
 	margin-top: 10px;
-
-color:black;
-	
-
+    color:black;
 }
 
 .olvido,.crear {
 	color:black;
-
 
 }
 
@@ -555,7 +457,7 @@ input {
 	font-weight: lighter;
 	background-color: #fefcfb;
 	border: 1px solid #adb5bd;
-	outline: none
+	outline: none;
 
 
 }		
@@ -566,24 +468,21 @@ input {
 .mainregistrate {
 	display: flex;
     justify-content: center;
-margin-top: 130px;
-     height:800px;
+    margin-top: 130px;
+    height:800px;
     width: 1300px;
-    
-
 }
 
 
-.Cuentatitulo{
+.Cuentatitulo {
 	
-	  font-size: 60px;
-	  font-weight: lighter;
-	  color:#f77f00;
-	  font-family: sans-serif;
-	  margin-bottom: 70px;
+	font-size: 60px;
+	font-weight: lighter;
+	color:#f77f00;
+	font-family: sans-serif;
+	margin-bottom: 70px;
 
-	  }
-
+}
 
 
 
@@ -606,11 +505,9 @@ margin-top: 130px;
 }
 
 #name, #lastname, #email , #pass {
-		height: 40px;
+	height: 40px;
 	width: 500px;
 }
-
-
 
 	
 .divcrear {
@@ -629,9 +526,6 @@ button {
 	border-style: none;
 
 }
-
-
-
 
 
 	/*Tu Compra*/
@@ -661,9 +555,7 @@ button {
 
 .carritotexto{
 	color:#6c757d;
-    font-size: 19px;
-   
-   
+    font-size: 19px;  
 
 }
 
@@ -680,17 +572,17 @@ footer {
   	color: black;
   	font-size: 14px;
 
-		}
+}
 	
 @media (max-width: 600px){
 	footer {
-
+        width: 650px;
 		flex-direction: column;
 		background-color: #e5e5e5;
-		width: 100%;
+		
 	}
 	.divredes, .divcontacto  {
-		margin-left: 30px;
+		margin-left: 40px;
 
 	}	
 	.redeshijos img {
@@ -714,5 +606,6 @@ footer {
 
 .Linkmapa { 
   color:black;
+  text-decoration: none;
 
-    }
+}
